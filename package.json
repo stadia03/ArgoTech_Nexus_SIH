@@ -4,16 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"  // Corrected the start script to use "node"
+    "start": "node index.js"  
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.3.1",
-    "ejs": "^3.1.6",           // Updated ejs version
-    "express": "^4.17.1",      // Updated express version
+    "ejs": "^3.1.6",           
+    "express": "^4.17.1",      
     "method-override": "^3.0.0",
-    "mongodb": "^4.3.6",       // Updated mongodb version
+    "mongodb": "^4.3.6",       
     "path": "^0.12.7"
   }
 }
