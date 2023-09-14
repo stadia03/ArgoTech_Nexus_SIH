@@ -1,0 +1,80 @@
+body{
+  background-color: rgb(255, 255, 255);
+  font-family: 'Arvo', serif;
+}
+
+.navbar, .navbar-brand{
+  font-size: x-large;
+  color: black;
+  
+}
+
+.navbar{
+  
+  background-color: rgb(226, 255, 226);
+  backdrop-filter: blur(10px);
+  border-bottom: solid 4px rgb(10, 119, 10);
+  box-shadow: 0px 0px 50px 0px rgba(10, 119, 10 ,0.77);
+ 
+}
+.logo{
+  height:70px;
+}
+
+
+.navbar_class{
+  /* border: solid 10px black; */
+  display: flex;
+  align-items: center;
+  /* position: fixed; */
+  justify-content: space-between;
+  padding: 30px 100px 50px 60px;
+ 
+  font-size: 160%;
+  background-color: rgb(194, 255, 194);
+  /* border-bottom: solid 4px rgb(10, 119, 10); */
+  box-shadow: 0px 0px 50px 0px rgba(10, 119, 10 ,0.77);
+
+}
+
+.nav_items{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  /* margin-left: 50vw; */
+}
+.nav_items_i{
+  margin: 0px 10px 0px 10px;
+  color: rgb(8, 113, 8);
+  text-decoration: none;
+}
+.title_box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro_img{
+  height: 600px;
+  margin: 60px;
+}
+
+.title{
+  margin-left: 80px;
+  
+}
+
+.price_box{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:flex-start;
+  margin: 0px 50px 0px 50px;
+}
+
+.form_class{
+  margin: 50px 0px 0px 400px;
+}
